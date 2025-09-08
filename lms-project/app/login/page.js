@@ -1,5 +1,5 @@
-import Input from "../../components/ui/Input";
-import Button from "../../components/ui/Button";
+import Input from "../../components/global/Input-field";
+import Button from "../../components/global/button";
 
 export default function LoginPage() {
   return (

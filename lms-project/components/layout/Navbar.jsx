@@ -1,11 +1,11 @@
-export default function Navbar() {
-  return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-gray-900 text-white">
-      <div className="text-xl font-bold">MyApp</div>
-      <div className="space-x-4">
-        <a href="/">Home</a>
-        <a href="/dashboard">Dashboard</a>
-      </div>
-    </nav>
-  );
-}
+"use client";
+import React from 'react';
+
+const Navbar = ({ children }) => (
+  <nav className="w-full bg-blue-700 text-white px-4 py-3 flex items-center justify-between shadow">
+    <div className="font-bold text-lg">LMS</div>
+    {children}
+  </nav>
+);
+
+export default Navbar;
