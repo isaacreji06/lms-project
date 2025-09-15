@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import toast from 'react-hot-toast';
-import Navbar from '../../components/layout/navbar';
-import InputField from '../../components/global/input-field';
+// import Navbar from '../../components/layout/navbar';
+import InputField from "../../components/global/Input-field.jsx";
 import Button from '../../components/global/button';
 
 const SignupPage = () => {
@@ -87,7 +87,7 @@ const SignupPage = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="max-w-md mx-auto mt-16 bg-white">
         <form onSubmit={handleSubmit} className="bg-white p-8 rounded shadow-md">
           <h2 className="text-2xl text-black font-bold mb-6 text-center">Sign Up</h2>

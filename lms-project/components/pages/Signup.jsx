@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import toast from 'react-hot-toast';
 import Navbar from '../layout/navbar';
-import InputField from '../global/input-field';
+import InputField from '../global/Input-field';
 import Button from '../../components/global/button';
 
 const SignupPage = () => {

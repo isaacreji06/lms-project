@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import MainLayout from '../layout/main-layout';
+import MainLayout from '../layout/Main-layout';
 import Sidebar from '../layout/sidebar';
 import Navbar from '../layout/navbar';
 import Card from '../global/card';
