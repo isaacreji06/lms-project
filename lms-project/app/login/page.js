@@ -1,4 +1,4 @@
-import LoginPage from "@/components/layout/Signin";
+import LoginPage from "../../components/layout/Signin.jsx";
 
 const Page = () => {
   return <LoginPage />;

@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import toast from 'react-hot-toast';
-import Navbar from '../layout/navbar';
-import InputField from '../global/Input-field';
-import Button from '../../components/global/button';
+import Navbar from '../layout/Navbar.jsx';
+import InputField from '../global/Input-field.jsx';
+import Button from '../../components/global/Button.jsx';
 
 const SignupPage = () => {
   const [form, setForm] = useState({ 

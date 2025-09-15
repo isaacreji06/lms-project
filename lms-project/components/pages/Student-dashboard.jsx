@@ -2,10 +2,10 @@
 import React, { useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
-import MainLayout from '../layout/Main-layout';
+import MainLayout from '../layout/Main-layout.jsx';
 import Sidebar from '../layout/Sidebar.jsx';
-import Navbar from '../layout/navbar.jsx';
-import Card from '../global/card';
+import Navbar from '../layout/Navbar.jsx';
+import Card from '../global/Card.jsx';
 
 const StudentDashboardPage = () => {
   const { data: session, status } = useSession();

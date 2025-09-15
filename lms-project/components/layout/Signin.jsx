@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
-import Navbar from './navbar.jsx';
+import Navbar from './Navbar.jsx';
 import InputField from '../global/Input-field.jsx';
-import Button from '../global/button';
+import Button from '../global/Button.jsx';
 
 const LoginPage = () => {
   const [form, setForm] = useState({ email: '', password: '' });

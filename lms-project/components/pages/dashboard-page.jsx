@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import MainLayout from "../layout/Main-layout.jsx";
-import Sidebar from "../layout/sidebar";
-import Navbar from "../layout/navbar";
-import Card from "../global/Card";
+import Sidebar from "../layout/Sidebar.jsx";
+import Navbar from "../layout/Navbar.jsx";
+import Card from "../global/Card.jsx";
 
 const DashboardPage = () => (
   <MainLayout sidebar={<Sidebar role="admin" />} navbar={<Navbar />}>

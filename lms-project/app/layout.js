@@ -1,8 +1,8 @@
 import "./globals.css";
-import Navbar from "../components/layout/navbar";
-import Footer from "../components/layout/Footer";
-import connectToDatabase from "../utils/mongodb";
-import User from "./models/User";
+import Navbar from "../components/layout/Navbar.jsx";
+import Footer from "../components/layout/Footer.jsx";
+import connectToDatabase from "../utils/mongodb.js";
+import User from "./models/User.js";
 import Providers from "./providers"; 
 import { Toaster } from "react-hot-toast";
 

@@ -1,4 +1,4 @@
-import Button from "../components/global/Button";
+import Button from "../components/global/Button.jsx";
 
 export default function Home() {
   return (
