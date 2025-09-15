@@ -5,7 +5,7 @@ import { signIn } from 'next-auth/react';
 import toast from 'react-hot-toast';
 // import Navbar from '../../components/layout/navbar';
 import InputField from "../../components/global/Input-field.jsx";
-import Button from '../../components/global/Button.jsx';
+import Button from "../../components/global/Button.jsx";
 
 const SignupPage = () => {
   const [form, setForm] = useState({ 

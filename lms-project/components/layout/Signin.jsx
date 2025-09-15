@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 import Navbar from './Navbar.jsx';
 import InputField from '../global/Input-field.jsx';
-import Button from '../global/Button.jsx';
+import Button from "../global/Button.jsx";
 
 const LoginPage = () => {
   const [form, setForm] = useState({ email: '', password: '' });
