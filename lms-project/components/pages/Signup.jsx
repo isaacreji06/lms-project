@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import toast from 'react-hot-toast';
-import Navbar from '../../components/layout/navbar';
-import InputField from '../../components/global/input-field';
+import Navbar from '../layout/navbar';
+import InputField from '../global/input-field';
 import Button from '../../components/global/button';
 
 const SignupPage = () => {

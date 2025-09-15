@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
-import Navbar from '../layout/navbar';
+import Navbar from './navbar';
 import InputField from '../global/input-field';
 import Button from '../global/button';
 

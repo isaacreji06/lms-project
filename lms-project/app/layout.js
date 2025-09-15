@@ -1,5 +1,5 @@
 import "./globals.css";
-import Navbar from "../components/layout/Navbar";
+import Navbar from "../components/layout/navbar";
 import Footer from "../components/layout/Footer";
 import connectToDatabase from "../utils/mongodb";
 import User from "./models/User";
