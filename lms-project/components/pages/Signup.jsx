@@ -67,9 +67,9 @@ const SignupPage = () => {
         toast.dismiss(loginToast);
         toast.success(`Welcome ${form.name}! Redirecting to your dashboard...`);
         if (form.role === 'admin') {
-          router.push('/admin_dashboard');
+          router.push('/admin-dashboard');
         } else {
-          router.push('/student_dashboard');
+          router.push('/student-dashboard');
         }
       } else {
         toast.dismiss(loginToast);
@@ -151,7 +151,7 @@ const SignupPage = () => {
             Already have an account?{' '}
             <button
               type="button"
-              onClick={() => router.push('/signin')}
+              onClick={() => router.push('/login')}
               className="text-blue-600 hover:text-blue-800 underline"
             >
               Sign In
